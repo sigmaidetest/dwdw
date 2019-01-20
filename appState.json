@@ -1,0 +1,71 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "17e0f2d9-180b-4917-9ff0-4dbc86c3f268": {
+        "id": "17e0f2d9-180b-4917-9ff0-4dbc86c3f268",
+        "parent": null,
+        "name": "dwdw",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "686be8af-8ffb-440f-acf7-bfee17d8b7a9"
+        ],
+        "isRemovable": false,
+        "filePath": "dwdw"
+      },
+      "686be8af-8ffb-440f-acf7-bfee17d8b7a9": {
+        "id": "686be8af-8ffb-440f-acf7-bfee17d8b7a9",
+        "parent": "17e0f2d9-180b-4917-9ff0-4dbc86c3f268",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "dwdw/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    \n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "17e0f2d9-180b-4917-9ff0-4dbc86c3f268",
+    "openFiles": [
+      "686be8af-8ffb-440f-acf7-bfee17d8b7a9"
+    ],
+    "currentFileId": "686be8af-8ffb-440f-acf7-bfee17d8b7a9",
+    "resources": {},
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "686be8af-8ffb-440f-acf7-bfee17d8b7a9"
+  },
+  "PROJECT_META": {
+    "projectName": "dwdw",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "lastSave": 1547998688966
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "dwdw",
+      "url": "https://github.com/sigmaidetest/dwdw"
+    }
+  }
+}
